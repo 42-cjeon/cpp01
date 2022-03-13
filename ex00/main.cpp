@@ -6,7 +6,7 @@
 /*   By: cjeon <cjeon@student.42seoul.kr>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/13 11:30:05 by cjeon             #+#    #+#             */
-/*   Updated: 2022/03/13 12:27:10 by cjeon            ###   ########.fr       */
+/*   Updated: 2022/03/13 12:30:40 by cjeon            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,7 +27,7 @@ int main(void) {
     heap->announce();
     pheap = heap;
   }
-  //pstack->announce(); -> invalid address
+  // pstack->announce(); -> invalid address
   pheap->announce();
   delete pheap;
 
