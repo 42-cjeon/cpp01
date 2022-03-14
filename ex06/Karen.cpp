@@ -6,7 +6,7 @@
 /*   By: cjeon <cjeon@student.42seoul.kr>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/13 21:07:58 by cjeon             #+#    #+#             */
-/*   Updated: 2022/03/13 22:30:55 by cjeon            ###   ########.fr       */
+/*   Updated: 2022/03/14 16:38:22 by cjeon            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,7 +36,10 @@ void Karen::complain(std::string level) {
     case kError:
       std::cout << "[ ERROR ]" << std::endl;
       error();
+      break;
     default:
+      std::cout << "[ Probably complaining about insignificant problems ]"
+                << std::endl;
       break;
   }
 }
